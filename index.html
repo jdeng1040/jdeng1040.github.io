@@ -1,12 +1,165 @@
+<!--
+  This template is a sample template for a personal portfolio. There are todo's below to help
+  you figure out what needs to be changed. This is meant to be an introduction to website design,
+  so if you wan't to learn more, we encourage you to do some research about HTML, CSS, and if you're
+  feeling up to it, JavaScript! https://www.w3schools.com/ is a great website to learn more about web design
+  and development, and there are many more great resources out there if you google them or check out some YouTube 
+  videos. Have fun!
+-->
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jason's Website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Jason Deng</h1>
+<html>
+<!--TODO: Change title to your name-->
+<title>Jason's Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-third">
+
+      <!--Start personal information section -->
+      <div class="w3-white w3-text-black w3-card-4">
+        <div class="w3-display-container">
+          <img src="llama-2.jpg" style="width:50%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+          </div>
+        </div>
+        <!--TODO: Change your information-->
+        <h2 style="margin-left: 2%"><strong>Lillian the Llama</strong> </h2>
+        <div class="w3-container">
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text" style="color:darkblue"></i>Ann Arbor, MI</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text" style="color:darkblue" ></i>jdengg@umich.edu <!--put your email here--></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text" style="color:darkblue"></i>734-277-5328 <!--put your phone number here--></p>
+          <hr>
+       <!--End personal information section -->       
+
+      <!-- Start About Me section -->
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text" style="color:darkblue"></i>About me:</b></p>
+          <!-- TODO: Change these paragraphs to be about you -->
+          <p>My name is Jason, and I am a freshman studying Computer Science at the University of Michigan. </p>
+          <p>I am new to Computer Science, but I am always looking to further my skills in the world of programming and problem-solving. I am taking my first ever programming course called EECS 183 here at the university, and I am looking to apply my newly gained knowledge in a practical sense to further develop as a computer science student, developer, and programmer.</p>
+          <hr>
+      <!-- End About Me section -->
+
+
+      <!-- Start Skills section -->
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text" style="color:darkblue"></i>Skills I am Developing:</b></p>
+          <!-- TODO: change these skills to your skills -->
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>Problem Solving</li>
+          </ul>
+      <!-- End Skills section -->
+          
+
+      <!-- Start Awards section -->          
+          <hr>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-trophy fa-fw w3-margin-right w3-text" style="color:darkblue"></i>Awards:</b></p>          <ul>
+            <li>AP Scholar Award</li>
+            <li>Top 10 Mascots in the U.S.</li>
+            <li>DECA Innovation Plan, 2nd State Leadership Conference</li>
+        </div>
+      </div><br>
+    <!-- End Awards section -->  
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+
+  <!-- Start Work Experience section --> 
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-black w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text" style="color:darkblue"></i>Work Experience</h2>
+        <!--TODO: Edit w3-container divs below to have your job info -->
+        <div class="w3-container">
+          <h5 class="w3-text"><b>Server / Frita Batidos</b></h5>
+          <h6 class="w3-text" style="color:darkblue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - <span class="w3-tag w3 w3-round" style="background-color:darkblue">Current</span></h6>
+          <p>Responsibilities:</p>
+          <ul>
+            <li>Provide wait service to ensure customer satisfaction.</li>
+            <li>Answer questions and serve customers.</li>
+            <li>Ensure money count is correct/help manage money in register.</li>
+          </ul>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-text"><b>Tutor</b></h5>
+          <h6 class="w3-text" style="color:darkblue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - Feb 2019</h6>
+          <p>Responsibilities:</p>
+          <ul>
+            <li>Tutored a group of middle school students in mathematics and science.</li>
+            <li>Tutored a group of high school students in physics and calculus.</li>
+            <li>Helped students prepare for PSAT and SAT tests.</li>
+          </ul>
+        </div>
+        <!--To add another job, just create another div section! -->
+  </div>
+  <!-- End Work Experience section --> 
+
+   
+   <!-- Start Education section --> 
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-black w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text" style="color:darkblue"></i>Education</h2>
+        <div class="w3-container">
+          <!-- TODO: add in your own educational experiences --> 
+          <h5 class="w3-text"><b>University of Michigan</b></h5>
+          <h6 class="w3-text" style="color:darkblue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2020-2024</h6>
+          <p>Relevant coursework:</p>
+          <ul>
+            <li>EECS 183: Elementary Programming Concepts</li>
+            <li>MATH 115: Calculus 1</li>
+          </ul>
+          <p>Projects:</p>
+          <ul>
+            <li>OHHI AI: An AI that can solve an ohhi game board based on the constraints of the game.</li>
+            <li>BMP Drawer: A program that can take shape arguments from a file and construct a BMP file of those shapes.</li>
+            <li>Elevators: A game where a player can operate elevators in a building and make decisions about how to efficiently manage people's anger levels and wait times.</li>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-text"><b>Ann Arbor Huron High School</b></h5>
+          <h6 class="w3-text" style="color:darkblue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2020</h6>
+          <p>Relevant coursework:</p>
+          <ul>
+            <li>AP Physics C: Mechanics</li>
+            <li>Business Management</li>
+          </ul>
+        </div>
+    <!-- End Education section --> 
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3 w3-center w3-margin-top" style="background-color:darkblue; color: white">
+  <p>Find me on GitHub or LinkedIn.</p>
+  <!-- TODO: Add in your own socials! You can include more social media by checking out font awesome icons online! -->
+  <a href="link goes here"><i class="fa fa-github w3-hover-opacity" style="font-size:24px; padding-right: 0.5%"></a></i>
+  <i class="fa fa-linkedin w3-hover-opacity" style="font-size:24px; padding-bottom:2%"><!-- Insert linkedin link --></i>
+  <!--<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>-->
+</footer>
+<!-- End Footer -->
 </body>
 </html>
