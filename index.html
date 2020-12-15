@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jason Deng's Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet" id="theme-link">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    <nav class="nav-bar">
+    <nav class="nav-bar" id="nav">
         <div class="logo">
             <h4>Jason Deng</h4>
         </div>
 
         <div class="nav-links">
-            <ul >
-                <li><a href="#">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="Deng, Jason Resume.pdf" target="_blank">Resume</a></li>
+            <ul>
+                <li id="link"><a href="#contact-link">Contact</a></li>
+                <li id="link"><a href="Deng, Jason Resume.pdf" target="_blank">Resume</a></li>
             </ul>
         </div>
     </nav>
@@ -38,41 +37,63 @@
             <a target="_blank" href="https://github.com/jdeng1040">
                 <i id="github" class="fab fa-github fa-2x"></i>
             </a>
+            <label class="switch">
+                <input id="toggle" type="checkbox">
+                <span class="slider round"></span>
+            </label>
         </div>
     </div>
     <div class="projects-container"> 
         <div class="project-img">
-            <img class="image1" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="">
+            <a href="https://github.com/jdeng1040" target="_blank">
+                <img class="image1" src="https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg" alt="">
             <h2 class="title">Project 1</h2>
             <div class="text text--blur">
                 <div class="content1">Description</div>
             </div>
+            </a>
         </div>
         <div class="project-img">
-            <img class="image1" src="https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <a href="https://github.com/jdeng1040" target="_blank">
+                <img class="image1" src="https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
             <h2 class="title">Project 2</h2>
             <div class="text text--blur">
                 <div class="content1">Description</div>
             </div>
+            </a>
         </div>   
         <div class="project-img">
-            <img class="image1" src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <a href="https://github.com/jdeng1040" target="_blank">
+                <img class="image1" src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
             <h2 class="title-black" >Project 3</h2>
             <div class="text text--blur">
                 <div class="content1">Description</div>
             </div>
+            </a>
         </div>
         <div class="project-img">
-            <img class="image1" src="https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg" alt="">
+            <a href="https://github.com/jdeng1040" target="_blank">
+                <img class="image1" src="https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg" alt="">
             <h2 class="title">Project 4</h2>
             <div class="text text--blur">
                 <div class="content1">Description</div>
             </div>
+            </a>  
         </div>
-       
     </div>
+
     <div class="footer">
-        <h2>Feel free to connect!</h2>
+        <h2 id="contact-link">Feel free to connect!</h2>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mrgoydqo" method="POST">
+                <input type="hidden" name="_subject" value="Contact request from personal website">
+                <input type="email" name="_replyto" placeholder="Your email">
+                <br />
+                <textarea name="message" placeholder="Type your message" required></textarea>
+                <br />
+                <button type="submit">Send</button>
+            </form>
+        </div>
         <div class="info">
             <h3>jdengg@umich.edu</h3>
             <h3>734-277-5328</h3>

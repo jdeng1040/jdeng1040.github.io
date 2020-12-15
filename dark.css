@@ -74,7 +74,8 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-    
+    background: black;
+    color: white;
 }
 
 
@@ -83,7 +84,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: black;
+    color: white;
     height: 75px;
 }
 
@@ -107,7 +108,7 @@ body {
 }
 
 .nav-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: bold;
@@ -152,7 +153,7 @@ body {
 }
 
 #github {
-    color: black;
+    color: white;
     font-size: 31px;
 }
 /* middle */
@@ -329,6 +330,7 @@ body {
         width: 300px;
         margin-bottom: 20px;
         font-size: 16px;
+        
     }
     
     .contact-form textarea {
