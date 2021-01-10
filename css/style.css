@@ -74,8 +74,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
-    background: black;
-    color: white;
+    
 }
 
 
@@ -84,7 +83,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: black;
     height: 75px;
 }
 
@@ -108,7 +107,7 @@ body {
 }
 
 .nav-links a {
-    color: white;
+    color: black;
     text-decoration: none;
     letter-spacing: 1px;
     font-weight: bold;
@@ -153,7 +152,7 @@ body {
 }
 
 #github {
-    color: white;
+    color: black;
     font-size: 31px;
 }
 /* middle */
@@ -198,6 +197,8 @@ body {
     align-items: center;
     opacity: 0;
     transition: opacity 0.5s;
+    padding: 0 50px;
+    font-size: 1.1em;
 }
 
 .project-img .title {
@@ -213,7 +214,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 180px;
+    padding-bottom: 300px;
 }
 
 .project-img .title-black {
@@ -229,12 +230,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 180px;
-}
-
-.project-img .content-1 {
-    font-size: 1.25em;
-    margin-top: 0.25em;
+    padding-bottom: 300px;
 }
 
 
@@ -300,6 +296,7 @@ body {
 .contact-form button {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
+    cursor: pointer;
 } 
 
 @media screen and (max-width: 768px) {
@@ -330,7 +327,6 @@ body {
         width: 300px;
         margin-bottom: 20px;
         font-size: 16px;
-        
     }
     
     .contact-form textarea {
